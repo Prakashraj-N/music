@@ -174,10 +174,10 @@ function App() {
     <div className='main'>
       <div className='left'>
         
-        <img  className="logo" src="logo.png" alt="logo"/>
+        <div className="logo" ><img  className='logo-img' src="logo.png" alt="logo"/></div>
         <div className='left-down'>
-            <p className='home'>🏠 Home</p>
-            <p className='home'>🔍 Search</p>
+            <p className='home'><span className='home-icon'>🏠</span> Home</p>
+            <p className='home'><span className='home-icon'>🔍</span> Search</p>
         </div>
 
       </div>
